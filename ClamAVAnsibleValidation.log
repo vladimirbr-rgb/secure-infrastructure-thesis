@@ -1,0 +1,111 @@
+
+PLAY [Compliance | Antivirus (СЗИ 3.1.1) – update each host] *******************
+
+TASK [Compliance soft check] ***************************************************
+[WARNING]: Host 'ws_msk_000019' is using the discovered Python interpreter at '/usr/bin/python3.12', but future installation of another Python interpreter could cause a different interpreter to be discovered. See https://docs.ansible.com/ansible-core/2.20/reference_appendices/interpreter_discovery.html for more information.
+ok: [ws_msk_000019]
+
+TASK [Print result] ************************************************************
+ok: [ws_msk_000019] => {
+    "msg": "ws_msk_000019: OK"
+}
+
+PLAY [Compliance | Antivirus (СЗИ 3.1.1) – update each host] *******************
+
+TASK [Compliance soft check] ***************************************************
+[WARNING]: Host 'ws_msk_000023' is using the discovered Python interpreter at '/usr/bin/python3.12', but future installation of another Python interpreter could cause a different interpreter to be discovered. See https://docs.ansible.com/ansible-core/2.20/reference_appendices/interpreter_discovery.html for more information.
+ok: [ws_msk_000023]
+
+TASK [Print result] ************************************************************
+ok: [ws_msk_000023] => {
+    "msg": "ws_msk_000023: OK"
+}
+
+PLAY [Compliance | Antivirus (СЗИ 3.1.1) – update each host] *******************
+
+TASK [Compliance soft check] ***************************************************
+[WARNING]: Host 'ws_msk_000034' is using the discovered Python interpreter at '/usr/bin/python3.12', but future installation of another Python interpreter could cause a different interpreter to be discovered. See https://docs.ansible.com/ansible-core/2.20/reference_appendices/interpreter_discovery.html for more information.
+ok: [ws_msk_000034]
+
+TASK [Print result] ************************************************************
+ok: [ws_msk_000034] => {
+    "msg": "ws_msk_000034: OK"
+}
+
+PLAY [Compliance | Antivirus (СЗИ 3.1.1) – update each host] *******************
+
+TASK [Compliance soft check] ***************************************************
+[WARNING]: Host 'ws_msk_000046' is using the discovered Python interpreter at '/usr/bin/python3.12', but future installation of another Python interpreter could cause a different interpreter to be discovered. See https://docs.ansible.com/ansible-core/2.20/reference_appendices/interpreter_discovery.html for more information.
+ok: [ws_msk_000046]
+
+TASK [Print result] ************************************************************
+ok: [ws_msk_000046] => {
+    "msg": "ws_msk_000046: OK"
+}
+
+PLAY [Compliance | Antivirus (СЗИ 3.1.1) – update each host] *******************
+
+TASK [Compliance soft check] ***************************************************
+[WARNING]: Host 'ws_msk_000055' is using the discovered Python interpreter at '/usr/bin/python3.12', but future installation of another Python interpreter could cause a different interpreter to be discovered. See https://docs.ansible.com/ansible-core/2.20/reference_appendices/interpreter_discovery.html for more information.
+ok: [ws_msk_000055]
+
+TASK [Print result] ************************************************************
+ok: [ws_msk_000055] => {
+    "msg": "ws_msk_000055: OK"
+}
+
+PLAY [Compliance | Antivirus (СЗИ 3.1.1) – update each host] *******************
+
+TASK [Compliance soft check] ***************************************************
+[WARNING]: Host 'ws_msk_000126' is using the discovered Python interpreter at '/usr/bin/python3.12', but future installation of another Python interpreter could cause a different interpreter to be discovered. See https://docs.ansible.com/ansible-core/2.20/reference_appendices/interpreter_discovery.html for more information.
+ok: [ws_msk_000126]
+
+TASK [Print result] ************************************************************
+ok: [ws_msk_000126] => {
+    "msg": "ws_msk_000126: OK"
+}
+
+PLAY [Compliance | Antivirus (СЗИ 3.1.1) – update each host] *******************
+
+TASK [Compliance soft check] ***************************************************
+[WARNING]: Host 'ws_msk_000159' is using the discovered Python interpreter at '/usr/bin/python3.12', but future installation of another Python interpreter could cause a different interpreter to be discovered. See https://docs.ansible.com/ansible-core/2.20/reference_appendices/interpreter_discovery.html for more information.
+ok: [ws_msk_000159]
+
+TASK [Print result] ************************************************************
+ok: [ws_msk_000159] => {
+    "msg": "ws_msk_000159: OK"
+}
+
+PLAY [Compliance | Antivirus (СЗИ 3.1.1) – update each host] *******************
+
+TASK [Compliance soft check] ***************************************************
+[WARNING]: Host 'ws_msk_000189' is using the discovered Python interpreter at '/usr/bin/python3.12', but future installation of another Python interpreter could cause a different interpreter to be discovered. See https://docs.ansible.com/ansible-core/2.20/reference_appendices/interpreter_discovery.html for more information.
+ok: [ws_msk_000189]
+
+TASK [Print result] ************************************************************
+ok: [ws_msk_000189] => {
+    "msg": "ws_msk_000189: OK"
+}
+
+PLAY [Compliance | Antivirus (СЗИ 3.1.1) – update each host] *******************
+
+TASK [Compliance soft check] ***************************************************
+[WARNING]: Host 'ws_msk_000242' is using the discovered Python interpreter at '/usr/bin/python3.12', but future installation of another Python interpreter could cause a different interpreter to be discovered. See https://docs.ansible.com/ansible-core/2.20/reference_appendices/interpreter_discovery.html for more information.
+ok: [ws_msk_000242]
+
+TASK [Print result] ************************************************************
+ok: [ws_msk_000242] => {
+    "msg": "ws_msk_000242: OK"
+}
+
+PLAY RECAP *********************************************************************
+ws_msk_000019              : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+ws_msk_000023              : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+ws_msk_000034              : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+ws_msk_000046              : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+ws_msk_000055              : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+ws_msk_000126              : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+ws_msk_000159              : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+ws_msk_000189              : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+ws_msk_000242              : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
